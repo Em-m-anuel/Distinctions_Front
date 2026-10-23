@@ -1,0 +1,362 @@
+/* ==================================================================
+   css/site.css — compléments strictement nécessaires au site multipage.
+   La direction artistique reste définie par meditra.css, gab-orient.css
+   et cf.css ; cette feuille ne contient que la mécanique des pages.
+================================================================== */
+
+/* Lien d'évitement des pages métier. */
+.mp-skip {
+  position: absolute;
+  left: -9999px;
+  top: 8px;
+  z-index: 300;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: #fff;
+  color: var(--navy-900, #142d52);
+  font-weight: 600;
+  box-shadow: 0 10px 30px -18px rgba(12, 31, 58, 0.6);
+}
+.mp-skip:focus { left: 12px; }
+
+/* Menu mobile : panneau lisible posé sur un voile sombre. */
+.mobile-nav:not([hidden]) {
+  background: rgba(8, 22, 41, 0.42);
+  animation: fade-in 160ms ease-out;
+}
+.mobile-nav .mobile-nav-list {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: min(320px, 86vw);
+  background: #fff;
+  border-right: 1px solid var(--line, #e5eaf0);
+  box-shadow: 0 24px 60px -24px rgba(12, 31, 58, 0.5);
+  padding: 18px 12px;
+  overflow: auto;
+  animation: slide-in-left 220ms ease-out;
+}
+.mobile-nav-list a.is-hidden,
+.nav-item.is-hidden,
+a.is-hidden { display: none !important; }
+
+/* Entrée de menu active (menu déroulant). */
+.nav-item .dd-menu .menu-item[aria-current="page"] {
+  background: var(--green-50, #f1faf5);
+  color: var(--green-700, #007e50);
+  font-weight: 600;
+}
+
+/* État de chargement et refus d'accès. */
+.mp-loading {
+  padding: 48px 8px;
+  color: var(--muted, #5b7388);
+  font-size: 0.9rem;
+}
+.mp-denied-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.mp-denied-actions .btn { text-decoration: none; }
+body.is-denied main#view { min-height: 50vh; }
+
+/* Les CTA de connexion sont désormais de vrais liens. */
+.auth-brand { text-decoration: none; }
+.auth-back { text-decoration: none; }
+.auth-switch .auth-link { text-decoration: none; }
+
+/* Les pages métier gardent la hauteur de la coquille historique. */
+.go-workspace { min-height: 100dvh; display: flex; flex-direction: column; }
+.go-workspace main#view { flex: 1 0 auto; width: 100%; }
+.go-workspace .site-footer { flex-shrink: 0; }
+
+/* Panneaux et visionneuses montés hors du contenu principal. */
+#mp-panel:empty,
+#mp-viewer:empty,
+#mp-confirm:empty { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav .mobile-nav-list { animation: none; }
+}
+
+/* Messages de secours : jamais de page blanche. */
+.mp-noscript {
+  margin: 0 auto;
+  padding: 14px 18px;
+  border-bottom: 1px solid #ead7a3;
+  background: #fff6e5;
+  color: #7a5b12;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+.mp-boot-error .page-sub { max-width: 62ch; }
+.mp-boot-detail {
+  margin: 12px 0 0;
+  padding: 10px 14px;
+  border-left: 3px solid #b4442f;
+  background: #fdf3f1;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  color: #7c2a1c;
+  overflow-wrap: anywhere;
+}
+.mp-boot-detail code { font-size: 0.82rem; }
+
+.mp-nf { padding: 64px 0 96px; max-width: 760px; }
+.mp-nf h1 { margin-bottom: 10px; }
+.mp-nf-list { margin: 14px 0 0; display: grid; gap: 8px; padding: 0; list-style: none; }
+.mp-nf-list a { color: var(--green-700, #007e50); font-weight: 600; text-decoration: none; }
+.mp-nf-list a:hover { text-decoration: underline; }
+
+/* Échelle commune des espaces métier. */
+.go-workspace {
+  --mp-space-1: 4px;
+  --mp-space-2: 8px;
+  --mp-space-3: 12px;
+  --mp-space-4: 16px;
+  --mp-space-6: 24px;
+  --mp-text-sm: 0.875rem;
+  --mp-text-base: 1rem;
+  --mp-text-lg: 1.125rem;
+  font-size: var(--mp-text-base);
+  line-height: 1.5;
+}
+
+.go-workspace #view.container {
+  box-sizing: border-box;
+  min-width: 0;
+  padding: 24px 32px 48px;
+}
+
+.go-workspace .page-head {
+  gap: 16px 24px;
+  margin-bottom: 24px;
+}
+
+.go-workspace .page-title,
+.go-workspace .page-head h1,
+.go-workspace .ws-hero h1 {
+  font-size: clamp(1.5rem, 2vw, 1.75rem);
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.go-workspace .page-eyebrow {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.go-workspace .page-sub,
+.go-workspace .cf-lead,
+.go-workspace .portal-lead {
+  font-size: var(--mp-text-base);
+  line-height: 1.6;
+}
+
+.go-workspace .page-actions,
+.go-workspace .mp-denied-actions {
+  gap: 8px;
+}
+
+.go-workspace .btn,
+.go-workspace .cf-btn,
+.go-workspace .cf-link {
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-family: var(--md-font-sans, inherit);
+  font-size: var(--mp-text-sm);
+  line-height: 1.25;
+}
+
+.go-workspace .cf-btn.cf-tiny,
+.go-workspace .btn.btn-sm {
+  min-height: 36px;
+  padding: 8px 12px;
+  font-size: 0.8125rem;
+}
+
+.go-workspace .card,
+.go-workspace .cf-paper,
+.go-workspace .portal-paper,
+.go-workspace .cf-card,
+.go-workspace .portal-stat {
+  min-width: 0;
+  border-radius: 12px;
+}
+
+.go-workspace .cf-paper,
+.go-workspace .portal-paper {
+  padding: 16px;
+}
+
+.go-workspace .cf-paper h2,
+.go-workspace .portal-paper h2,
+.go-workspace .card-title {
+  font-size: var(--mp-text-lg);
+  line-height: 1.4;
+}
+
+.go-workspace .cf-table,
+.go-workspace .portal-table,
+.go-workspace .mini-table > table {
+  max-width: 100%;
+  font-size: var(--mp-text-sm);
+}
+
+.go-workspace .cf-table th,
+.go-workspace .portal-table th,
+.go-workspace .mini-table th {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.go-workspace .cf-table td,
+.go-workspace .portal-table td,
+.go-workspace .mini-table td {
+  line-height: 1.5;
+}
+
+.go-workspace .table-wrap,
+.go-workspace .mini-table,
+.go-workspace .portal-table-wrap,
+.go-workspace .cf-table-wrap,
+.go-workspace [id$="-table"]:not(table) {
+  box-sizing: border-box;
+  max-width: 100%;
+  overscroll-behavior-inline: contain;
+}
+
+.go-workspace .dl-grid > div,
+.go-workspace .grid > *,
+.go-workspace .form-grid > *,
+.go-workspace .card {
+  min-width: 0;
+}
+
+.go-workspace .dl-grid dd,
+.go-workspace td,
+.go-workspace .page-sub,
+.go-workspace .cf-lead {
+  overflow-wrap: anywhere;
+}
+
+.go-workspace .page-crumbs {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 8px 32px 0;
+  color: var(--md-muted, #64748b);
+}
+
+.go-workspace .page-crumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.go-workspace .page-crumbs li {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.go-workspace .page-crumbs li + li::before {
+  content: "/";
+  margin-right: 8px;
+  color: var(--md-line-strong, #d3dbe6);
+}
+
+.go-workspace .page-crumbs a {
+  color: var(--md-ink-600, #2a527f);
+  text-decoration: none;
+}
+
+.go-workspace .page-crumbs a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.go-workspace .page-crumbs [aria-current="page"] {
+  color: var(--md-ink, #102a50);
+  font-weight: 600;
+}
+
+.go-workspace .nav-link[aria-current="page"] {
+  border-radius: 8px;
+  background: var(--md-green-50, #ecf9f3);
+  color: var(--md-green-700, #00683f);
+  font-weight: 700;
+}
+
+.go-workspace .mobile-nav-list a[aria-current="page"] {
+  border-radius: 8px;
+  background: var(--md-green-50, #ecf9f3);
+  color: var(--md-green-700, #00683f);
+  font-weight: 700;
+}
+
+.go-workspace .mp-loading {
+  margin: 0;
+  padding: 24px 16px;
+  border: 1px solid var(--md-line, #e5eaf0);
+  border-radius: 12px;
+  background: var(--md-white, #fff);
+  font-size: var(--mp-text-sm);
+  line-height: 1.5;
+}
+
+.go-workspace .cf-empty,
+.go-workspace .go-empty,
+.go-workspace .empty {
+  min-width: 0;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.go-workspace .mp-denied {
+  padding: 24px;
+  border: 1px solid var(--md-line, #e5eaf0);
+  border-radius: 12px;
+  background: var(--md-white, #fff);
+}
+
+.go-workspace .mp-denied .page-sub {
+  max-width: 62ch;
+  color: var(--md-muted, #64748b);
+}
+
+@media (max-width: 960px) {
+  .go-workspace #view.container {
+    padding: 20px 16px 40px;
+  }
+
+  .go-workspace .page-crumbs {
+    padding: 8px 16px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .go-workspace .page-title,
+  .go-workspace .page-head h1,
+  .go-workspace .ws-hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .go-workspace .dl-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .go-workspace .page-actions .btn,
+  .go-workspace .page-actions .cf-btn {
+    max-width: 100%;
+  }
+
+  .go-workspace .mp-denied {
+    padding: 16px;
+  }
+}

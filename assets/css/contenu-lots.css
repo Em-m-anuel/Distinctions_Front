@@ -1,0 +1,25 @@
+/* M3/M7/M8 contenu seulement : aucun sélecteur ne cible la barre haute. */
+#view, #mp-panel, #mp-viewer, #mp-confirm { min-width:0; overflow-wrap:anywhere; }
+#view > *, #view :is(.grid,.row,.card,.card-body,.field,.form-grid,.step-content) { min-width:0; max-width:100%; }
+#view :is(input,select,textarea) { box-sizing:border-box; max-width:100%; }
+#view :is(.table-wrap,.cf-table-wrap) { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+#view table { width:100%; }
+#view :is(.mp-denied,.mp-denied-actions,.alert) { white-space:normal; flex-wrap:wrap; }
+#view [data-iso-flag] { display:inline-block; vertical-align:middle; object-fit:contain; flex-shrink:0; }
+#view [data-iso-flag][hidden] { display:none; }
+#view .flag-code { font-size:.8em; margin-inline:4px; }
+#view nav[aria-label="Rubriques Administration"] { display:flex; gap:8px; flex-wrap:wrap; margin-block:16px; }
+#view :is(button,a,input,select,textarea):focus-visible { outline:2px solid var(--navy-900,#102a50); outline-offset:3px; }
+#view form { display:grid; gap:16px; padding:16px; }
+#view form .field { display:grid; gap:6px; }
+#view [role="alert"] { padding:16px; border:1px solid currentColor; }
+#view [role="status"] { padding:12px; }
+@media(max-width:767px) {
+ #view :is(.btn,button,input:not([type=checkbox]):not([type=radio]),select,.tab),
+ #mp-panel :is(.btn,button,input,select), #mp-viewer button, #mp-confirm button { min-height:44px; }
+ #view :is(.form-grid,.wizard-grid,.wizard-layout,.grid-2,.form-row,.recipient-grid) { display:grid; grid-template-columns:minmax(0,1fr); }
+ #view :is(.page-head,.card-body,.mp-denied) { padding-inline:12px; }
+ #view :is(.tabs,.wizard-steps,.calendar) { max-width:100%; overflow-x:auto; }
+ #mp-panel :is(.modal,.drawer), #mp-viewer :is(.modal,.drawer) { width:min(100%,620px); max-height:calc(100dvh - 24px); }
+ #mp-panel :is(.modal-body,.drawer-body), #mp-viewer :is(.modal-body,.drawer-body) { min-height:0; overflow-y:auto; }
+}

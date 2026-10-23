@@ -1,0 +1,3512 @@
+{
+  "format": 1,
+  "convention": "pages/<famille>/<page>.html",
+  "source": "routes/web.php + resources/views/pages + resources/views/errors",
+  "pages": [
+    {
+      "family": "admin",
+      "page": "journal",
+      "source": "resources/views/profiles/admin/journal.blade.php",
+      "route": "workspace.admin.journal",
+      "original": "/administration/journal",
+      "output": "pages/admin/journal.html",
+      "profile": "admin",
+      "status": "À VÉRIFIER",
+      "sha256": "03e9b70ac9a6f12027819c12753735ea33eddc7e5591e732efdcdcfb22099e05",
+      "header_sha256": "2126da3c8d629a89ce8f2e29d2e8484cb1a8772978da7696efcdd78d87f2a731",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/admin/journal.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "admin",
+      "page": "notifications",
+      "source": "resources/views/profiles/admin/notifications.blade.php",
+      "route": "workspace.admin.notifications",
+      "original": "/administration/notifications",
+      "output": "pages/admin/notifications.html",
+      "profile": "admin",
+      "status": "À VÉRIFIER",
+      "sha256": "8522aedabe1b46187906f6da616ab1a41c5f4f54f27164278a0597a27862cff9",
+      "header_sha256": "9799a88dd832045cf0459da99fbb32d32a537e28242e3548a52f24041924e3df",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/admin/notifications.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "admin",
+      "page": "overview",
+      "source": "resources/views/profiles/admin/overview.blade.php",
+      "route": "workspace.admin.overview",
+      "original": "/administration",
+      "output": "pages/admin/overview.html",
+      "profile": "admin",
+      "status": "À VÉRIFIER",
+      "sha256": "0a8c234806c954af6d148c087658d270fb03634eb9093806b1833ab90593ef01",
+      "header_sha256": "a9ea3dd69b7f2161faa71925b373dfd05d6a469721247e8f213537be57db14ec",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/admin/overview.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "admin",
+      "page": "profile",
+      "source": "resources/views/profiles/admin/profile.blade.php",
+      "route": "workspace.admin.profile",
+      "original": "/administration/profile",
+      "output": "pages/admin/profile.html",
+      "profile": "admin",
+      "status": "À VÉRIFIER",
+      "sha256": "d5c68da4460807d454c4d6a953de6c1d149e2ffe7ea920a045dc1296f264ef50",
+      "header_sha256": "14159f4bc795dd7d5a406970cc2af7afe10bde298c7ee8333a88ffa24a94214f",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/admin/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "admin",
+      "page": "users",
+      "source": "resources/views/profiles/admin/users.blade.php",
+      "route": "workspace.admin.users",
+      "original": "/administration/users",
+      "output": "pages/admin/users.html",
+      "profile": "admin",
+      "status": "À VÉRIFIER",
+      "sha256": "e133986fc82de14a0135478133374a71b17c890556c7f64d6660ca3392d1742c",
+      "header_sha256": "5bcf838a789b33d8d2d3c12cba1d8d6c5211fd264dda22d847d13ef550fc5daf",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/admin/users.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "ceremonies",
+      "source": "resources/views/profiles/demandeur/ceremonies.blade.php",
+      "route": "workspace.demandeur.ceremonies",
+      "original": "/profil/demandeur/ceremonies",
+      "output": "pages/demandeur/ceremonies.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "0adb40e251e098ac4740ae0fafe9222ba81abdb386e7495ff88adb62f827d87a",
+      "header_sha256": "b1a709b0fa0cf0d54d72ec448cc2d508227f2bfb3bcd7b16b8356d929a105766",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/ceremonies.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "complements",
+      "source": "resources/views/profiles/demandeur/complements.blade.php",
+      "route": "workspace.demandeur.complements",
+      "original": "/profil/demandeur/complements",
+      "output": "pages/demandeur/complements.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "3c3e6b9125b98c683dbbf2a0d9cfbaefcff1be6fd73fc9052c4424a5f116e8bc",
+      "header_sha256": "7b7737d2798e9c6dbf59e5bcd2ca0fbb3b256c3f459e9257bb982e6bb4770c5f",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/complements.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "documents",
+      "source": "resources/views/profiles/demandeur/documents.blade.php",
+      "route": "workspace.demandeur.documents",
+      "original": "/profil/demandeur/documents",
+      "output": "pages/demandeur/documents.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "f1a98d3f23db687483f3931bdc5a5672147f794ef2dc55d85db04294b2c3a780",
+      "header_sha256": "ab2520eeb317095ca29192900a776cd9af9b4e43b7fd71e1968b4751350fb967",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/documents.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "dossiers",
+      "source": "resources/views/profiles/demandeur/dossiers.blade.php",
+      "route": "workspace.demandeur.dossiers",
+      "original": "/profil/demandeur/dossiers",
+      "output": "pages/demandeur/dossiers.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "31f764fa436607bacafae8c995f2e9a787abc6000bac525d6010b4292128a1e6",
+      "header_sha256": "2ac37066fa2e274f0a5eb5c5d82da8d37a24c832a9be3ff6ebb6bddbd61a1416",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/dossiers.html",
+        "drawers": 10,
+        "newView": true
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "journal",
+      "source": "resources/views/profiles/demandeur/journal.blade.php",
+      "route": "workspace.demandeur.journal",
+      "original": "/profil/demandeur/journal",
+      "output": "pages/demandeur/journal.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "584d6de5556e35001e5ec6306a6455bd5c508691df5d789d797282fc362ec04f",
+      "header_sha256": "c53dce6f6f8e1c4fe679aedd8346387bf41e51f9f35fd93c2c3ed5ed499f0c74",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/journal.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "new-dossier",
+      "source": "resources/views/profiles/demandeur/new-dossier.blade.php",
+      "route": "workspace.demandeur.new-dossier",
+      "original": "/profil/demandeur/new-dossier",
+      "output": "pages/demandeur/new-dossier.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "09092bb36ce9da7e8eb7dc8ac7822e29a856435f8321a589f2423ff753310c93",
+      "header_sha256": "191414d94d724024d12d5e5a23515bbe2d4dce7760c7f65f6e6ba9a9b09469bb",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/new-dossier.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "notifications",
+      "source": "resources/views/profiles/demandeur/notifications.blade.php",
+      "route": "workspace.demandeur.notifications",
+      "original": "/profil/demandeur/notifications",
+      "output": "pages/demandeur/notifications.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "607d194ab3c8a2ab79b6d14dbd6f85cfb0b07a05dc7a0657ae8d79b69c8c0959",
+      "header_sha256": "13811be555d27dc4ba860bf829b4fab2347246f21e351642f0a9acd84588105c",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/notifications.html",
+        "drawers": 2,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "overview",
+      "source": "resources/views/profiles/demandeur/overview.blade.php",
+      "route": "workspace.demandeur.overview",
+      "original": "/profil/demandeur",
+      "output": "pages/demandeur/overview.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "f861e827c185856b87d974f65ec68b47d1cd6e36667aded6cfb506863231e408",
+      "header_sha256": "6f70a2b1a59d75e0b5e618ae8fb833e6e4e26de02346394b27d35985f9de96d7",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/overview.html",
+        "drawers": 6,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "payments",
+      "source": "resources/views/profiles/demandeur/payments.blade.php",
+      "route": "workspace.demandeur.payments",
+      "original": "/profil/demandeur/payments",
+      "output": "pages/demandeur/payments.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "292c16ff9bd581bd5cfcc8e1dc053ad8997b7437209cd67579cb67582155125a",
+      "header_sha256": "036958de4e62ca153d10aa9909d10f99566ac51464986ee08cf7579c44719d82",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/payments.html",
+        "drawers": 3,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "pieces",
+      "source": "resources/views/profiles/demandeur/pieces.blade.php",
+      "route": "workspace.demandeur.pieces",
+      "original": "/profil/demandeur/pieces",
+      "output": "pages/demandeur/pieces.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "7aa5031d7399a27ffe0c7274e37c8de43fd2f07de7ed8ce8324d7ad0a4916b42",
+      "header_sha256": "effb1ba723b193562417742ff62f450f01fa90940bfa3fd301f69d9313c60471",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/pieces.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "profile",
+      "source": "resources/views/profiles/demandeur/profile.blade.php",
+      "route": "workspace.demandeur.profile",
+      "original": "/profil/demandeur/profile",
+      "output": "pages/demandeur/profile.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "15b1480e7d07b1ac4f128d1b455a27a85090bc8bff9742a45de669e3887a1d09",
+      "header_sha256": "0e2da559e6609f19c1ab11ac965cf942a269c5be1aa1de72164e4023df4f68e0",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "recipients",
+      "source": "resources/views/profiles/demandeur/recipients.blade.php",
+      "route": "workspace.demandeur.recipients",
+      "original": "/profil/demandeur/recipients",
+      "output": "pages/demandeur/recipients.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "623c9772e7fc066f7d02256f70bb89bfca52ecb6dec000ec0bed8379c7bbe838",
+      "header_sha256": "07695b295e6a22f92a728cb591536df0d7e6fdb8393d310f631e3adeef556b9d",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/recipients.html",
+        "drawers": 6,
+        "newView": false
+      }
+    },
+    {
+      "family": "demandeur",
+      "page": "recours",
+      "source": "resources/views/profiles/demandeur/recours.blade.php",
+      "route": "workspace.demandeur.recours",
+      "original": "/profil/demandeur/recours",
+      "output": "pages/demandeur/recours.html",
+      "profile": "demandeur",
+      "status": "À VÉRIFIER",
+      "sha256": "662dd05979b7d49353f8f7c627f777c84ac4bc2970f53ee6cce8f308efe9a13b",
+      "header_sha256": "af49cc57c2c3f2c4c7432bccb47e1298db4b668ac629a9c41d40c006db8eacd9",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/demandeur/recours.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "ceremonies",
+      "source": "resources/views/profiles/direction/ceremonies.blade.php",
+      "route": "workspace.direction.ceremonies",
+      "original": "/profil/direction/ceremonies",
+      "output": "pages/direction/ceremonies.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "3190ac5627fa688104fba02f085094bb0971dda6de9aa545eb6e87aa15fb4788",
+      "header_sha256": "505d1db916e9672467c89708a88b77183e6cbedd85d80c2af879c6a9861cdf10",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/ceremonies.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "decisions",
+      "source": "resources/views/profiles/direction/decisions.blade.php",
+      "route": "workspace.direction.decisions",
+      "original": "/profil/direction/decisions",
+      "output": "pages/direction/decisions.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "5ec505febfc2f8b0635ce3b1af6b7c07f275cd34b32153ed1715cb76c9c713bc",
+      "header_sha256": "7ec51daf16b386451007af801df80dadc64773ffd26cc5df23542c878c9ef683",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/decisions.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "documents",
+      "source": "resources/views/profiles/direction/documents.blade.php",
+      "route": "workspace.direction.documents",
+      "original": "/profil/direction/documents",
+      "output": "pages/direction/documents.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "35ea1a1d0ca52e7967b601e14548dccc6bb1e9009373b36a8a293ba59741509e",
+      "header_sha256": "d401ab1578a464d01a5b37e029b0d0a7de07ca021bbe6aee6e75fbe6aa8a7502",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/documents.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "dossiers",
+      "source": "resources/views/profiles/direction/dossiers.blade.php",
+      "route": "workspace.direction.dossiers",
+      "original": "/profil/direction/dossiers",
+      "output": "pages/direction/dossiers.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "cb65fb9f81dc2ce8ce0c81c091b8b8ee3fde0b4b96f0333489a33f7a499fcc02",
+      "header_sha256": "4ab48f6a947634f756f7890fe5c02e49e33b8e1547602cb758778115ade35858",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/dossiers.html",
+        "drawers": 8,
+        "newView": true
+      }
+    },
+    {
+      "family": "direction",
+      "page": "journal",
+      "source": "resources/views/profiles/direction/journal.blade.php",
+      "route": "workspace.direction.journal",
+      "original": "/profil/direction/journal",
+      "output": "pages/direction/journal.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "311da217c7facf31155dec33fb647ef14cf1225136f14a6f5487ce24ce17f345",
+      "header_sha256": "072ef780d2f1709e1e172d1041d74365626908a9ce761d88e9b1bfceab4f783c",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/journal.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "notifications",
+      "source": "resources/views/profiles/direction/notifications.blade.php",
+      "route": "workspace.direction.notifications",
+      "original": "/profil/direction/notifications",
+      "output": "pages/direction/notifications.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "0f42fa69dbee0a2432478a3a732003013fe40f2b624b5172b37582ab7b7a3c2e",
+      "header_sha256": "2eaae1c3b2db116081d170cfd26b8fad75e1a9a622b05209ff352788921db36c",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/notifications.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "overview",
+      "source": "resources/views/profiles/direction/overview.blade.php",
+      "route": "workspace.direction.overview",
+      "original": "/profil/direction",
+      "output": "pages/direction/overview.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "3725472a8c50110cdc23757964d6df6ee1045e0955787ef4074a4f9322ce9739",
+      "header_sha256": "3c743fba640fef07a66703a94449bbfa97e1d2157b5a50a13f30f1e6be70203e",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/overview.html",
+        "drawers": 3,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "profile",
+      "source": "resources/views/profiles/direction/profile.blade.php",
+      "route": "workspace.direction.profile",
+      "original": "/profil/direction/profile",
+      "output": "pages/direction/profile.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "4cedbb2125b45b111bc1aae26ff03c672ac48514d647ed20e03173eab0c9452b",
+      "header_sha256": "8dc5495c394515582360e03168af4646d9385bd91daf37efffd8a85b49212cfb",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "recours",
+      "source": "resources/views/profiles/direction/recours.blade.php",
+      "route": "workspace.direction.recours",
+      "original": "/profil/direction/recours",
+      "output": "pages/direction/recours.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "265a11a81f77a8738ee548a42f5949cf58090864fffa8c12af594ebaa0645cd2",
+      "header_sha256": "6e9f99376de8a73319f17aad6dcdeb23d7c93bcb112d2587adfb7345338cb431",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/recours.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "direction",
+      "page": "stats",
+      "source": "resources/views/profiles/direction/stats.blade.php",
+      "route": "workspace.direction.stats",
+      "original": "/profil/direction/stats",
+      "output": "pages/direction/stats.html",
+      "profile": "dr",
+      "status": "À VÉRIFIER",
+      "sha256": "d56e5cd0541f5af52bfdb7072427e1f5f6bfcac866f60d6e17fbaab430528faf",
+      "header_sha256": "df46e22352856c5809d571a532860dd0503fc84ffd887b12810cb74f8adc2e35",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/direction/stats.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "auth-changer-mot-de-passe",
+      "source": "resources/views/pages/auth/changer-mot-de-passe.blade.php",
+      "output": "pages/public/auth-changer-mot-de-passe.html",
+      "route": "compte.password",
+      "original": "",
+      "profile": "public",
+      "status": "OK",
+      "sha256": "c4e3b65ad43e18fd94c218597c0df12c5a1ceebce11540f36772788499059fcd",
+      "header_sha256": null,
+      "notes": [],
+      "maquette": {
+        "output": "pages/public/auth-changer-mot-de-passe.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "auth-login",
+      "source": "resources/views/pages/auth/login.blade.php",
+      "output": "pages/public/auth-login.html",
+      "route": "login",
+      "original": "/connexion",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "ba612d071bc5fb4a6a547c5260a172bd51914c4eeb8d55242da7b45ea5caa6b0",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/auth-login.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "auth-register",
+      "source": "resources/views/pages/auth/register.blade.php",
+      "output": "pages/public/auth-register.html",
+      "route": "register",
+      "original": "/inscription",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "13e975697a6b0a165ce83ca0f2747a45ac05768e5d7c8209696c434b1022db5d",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/auth-register.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "error-403",
+      "source": "resources/views/errors/403.blade.php",
+      "output": "pages/public/error-403.html",
+      "route": "export.error-403",
+      "original": "",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "a79d14dbbc3ed90b85e7649978055dc9643cb0c1ebbcdb6ae6745eff2095414e",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/error-403.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "error-404",
+      "source": "resources/views/errors/404.blade.php",
+      "output": "pages/public/error-404.html",
+      "route": "export.error-404",
+      "original": "",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "52a4f5e02b5e14068b4af814c628ff33e52f6d8711ee6ecfd0246d2b116655eb",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/error-404.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "errors-forbidden",
+      "source": "resources/views/pages/errors/forbidden.blade.php",
+      "output": "pages/public/errors-forbidden.html",
+      "route": "error.forbidden",
+      "original": "",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "ddc966d3659ec9f475350ee5eb58f449a7d80861ebb0182a8f869417306d9df8",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/errors-forbidden.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "errors-not-found",
+      "source": "resources/views/pages/errors/not-found.blade.php",
+      "output": "pages/public/errors-not-found.html",
+      "route": "error.not-found",
+      "original": "",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "bb307bc851ce005873316d021f28a750ce126f4f519e3d7da30eac28679afb22",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/errors-not-found.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "public",
+      "page": "home",
+      "source": "resources/views/pages/home.blade.php",
+      "output": "pages/public/home.html",
+      "route": "home",
+      "original": "/",
+      "profile": "public",
+      "status": "À VÉRIFIER",
+      "sha256": "884a7613851b8a6b31a1773e74fe8dba673c43d4791d8b349245b56dcd0ebc4c",
+      "header_sha256": null,
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/public/home.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "ceremonies",
+      "source": "resources/views/profiles/recipient/ceremonies.blade.php",
+      "route": "workspace.recipient.ceremonies",
+      "original": "/profil/recipiendaire/ceremonies",
+      "output": "pages/recipient/ceremonies.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "b018b7f30713727f585881f6a4f9fa51a11b61c8fd5fdd95933fd07e12444026",
+      "header_sha256": "96665f18d92e82058dc61a4c0238070127c82db2355144e3f6e3a3573fd04ac7",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/ceremonies.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "distinctions",
+      "source": "resources/views/profiles/recipient/distinctions.blade.php",
+      "route": "workspace.recipient.distinctions",
+      "original": "/profil/recipiendaire/distinctions",
+      "output": "pages/recipient/distinctions.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "d316c01d76af75221756b1a2e9345b0f2a95bed8cd01abfec14f6ce86e572686",
+      "header_sha256": "6c09df3abb5d6b94f815747b80b53b59e8ce57179d9340239bb153fa2d801c2a",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/distinctions.html",
+        "drawers": 2,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "documents",
+      "source": "resources/views/profiles/recipient/documents.blade.php",
+      "route": "workspace.recipient.documents",
+      "original": "/profil/recipiendaire/documents",
+      "output": "pages/recipient/documents.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "0af9b9380a21b16d0ccdaa89574f99a285bc7d2805fb9c6c339b0ca4c2a2b699",
+      "header_sha256": "975d6adedcb75e7c34bd36121b9c2efc772f9870058e94acd58515c3304c8cef",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/documents.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "dossiers",
+      "source": "resources/views/profiles/recipient/dossiers.blade.php",
+      "route": "workspace.recipient.dossiers",
+      "original": "/profil/recipiendaire/dossiers",
+      "output": "pages/recipient/dossiers.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "ba90c70056d0899fe88a492d5e978b6de735339dbd38398c2e0cb908dbc00e88",
+      "header_sha256": "9a3ea94eb7df269b59baf9682ada7aa2cebb5641429c53f21dfe2794cb302748",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/dossiers.html",
+        "drawers": 3,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "notifications",
+      "source": "resources/views/profiles/recipient/notifications.blade.php",
+      "route": "workspace.recipient.notifications",
+      "original": "/profil/recipiendaire/notifications",
+      "output": "pages/recipient/notifications.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "0edfed3b4bbfe62f731d59531c6ebc7338eac0cc4d2b3fcf325cba0b9b7767ea",
+      "header_sha256": "9ea512da93e2ad09aaa5fc0efadba1281b9c64ea2891e5bf34e4ebcfee558eb9",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/notifications.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "overview",
+      "source": "resources/views/profiles/recipient/overview.blade.php",
+      "route": "workspace.recipient.overview",
+      "original": "/profil/recipiendaire",
+      "output": "pages/recipient/overview.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "1643440b38195d2604f49d800391f060472cae7b965a0e358cd079dac904b22f",
+      "header_sha256": "12b9160d6db75bc36e384c10273d298d894c78eb4f4decb28f3ea2a517a95a61",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/overview.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "profile",
+      "source": "resources/views/profiles/recipient/profile.blade.php",
+      "route": "workspace.recipient.profile",
+      "original": "/profil/recipiendaire/profile",
+      "output": "pages/recipient/profile.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "b1a45402c908a387902e84a8bb4bbc13e9c17b5edd2e021c397776eafcdfdd4e",
+      "header_sha256": "51e6bbebe9d18511b39374c015904c041ad656c25b1453dc597952116e180ba6",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "recipient",
+      "page": "retraits",
+      "source": "resources/views/profiles/recipient/retraits.blade.php",
+      "route": "workspace.recipient.retraits",
+      "original": "/profil/recipiendaire/retraits",
+      "output": "pages/recipient/retraits.html",
+      "profile": "recipient",
+      "status": "À VÉRIFIER",
+      "sha256": "07faf7593ed7daf512e9fa275087653cfa6de821cf6aeba768dc0fb54d11f22b",
+      "header_sha256": "0a465a599b493334a4ceb56c65660018db38db8611e2fa3124340631268e6022",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/recipient/retraits.html",
+        "drawers": 3,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "ceremonies",
+      "source": "resources/views/profiles/regie/ceremonies.blade.php",
+      "route": "workspace.regie.ceremonies",
+      "original": "/profil/regie/ceremonies",
+      "output": "pages/regie/ceremonies.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "f8eedcbd6b217d78f9fb643fbce16865afb187917e3986b617e1b6620ac04b23",
+      "header_sha256": "4ec5df1ecf01551a26b963750fd86e93d357d8e48eb3696ed5ee821402f2b3b5",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/ceremonies.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "documents",
+      "source": "resources/views/profiles/regie/documents.blade.php",
+      "route": "workspace.regie.documents",
+      "original": "/profil/regie/documents",
+      "output": "pages/regie/documents.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "336237bb092e2bd03223661bc140733aa89e2b4b02f63555bd8d5fff4469d4b1",
+      "header_sha256": "4c6afddd04573c0454251194d5127ac733cdaf726f73ce05f03c06dc38a015ff",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/documents.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "dossiers",
+      "source": "resources/views/profiles/regie/dossiers.blade.php",
+      "route": "workspace.regie.dossiers",
+      "original": "/profil/regie/dossiers",
+      "output": "pages/regie/dossiers.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "7f326fb7bf4c58c38aba0d65d54c35199f3c9a5d4f9a0482b2eb5b4e7e1c85e9",
+      "header_sha256": "ac67bd3ef01f8df1d962ca59d91c35ef59440f57ba071c751f69cde1540d8b3e",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/dossiers.html",
+        "drawers": 6,
+        "newView": true
+      }
+    },
+    {
+      "family": "regie",
+      "page": "journal",
+      "source": "resources/views/profiles/regie/journal.blade.php",
+      "route": "workspace.regie.journal",
+      "original": "/profil/regie/journal",
+      "output": "pages/regie/journal.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "9c875a80cf521b3b8efc36eeabd6f98f926565d3422328a2127cecf14ce92ff7",
+      "header_sha256": "5728cb8e387e3d0e6fd5899ec5a4a27dbd1c36df1cb3ae467052d149ad8f9ab2",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/journal.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "notifications",
+      "source": "resources/views/profiles/regie/notifications.blade.php",
+      "route": "workspace.regie.notifications",
+      "original": "/profil/regie/notifications",
+      "output": "pages/regie/notifications.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "89ef34c46e9f12c284716da559a93944f6c8882f2c4258d8bf056e0b8ee434e4",
+      "header_sha256": "645e63f167b7201f0bc53efe5fab5a433be04314558fc8371c318e49e4d7f1cd",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/notifications.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "orders",
+      "source": "resources/views/profiles/regie/orders.blade.php",
+      "route": "workspace.regie.orders",
+      "original": "/profil/regie/orders",
+      "output": "pages/regie/orders.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "1e3eac03f5f3a950a4f6f194814cdd20871e3cc21d7d8a2c28efae3af15a64c7",
+      "header_sha256": "373adb9f39d7e7acef426c1aebebceb95eb707522f8eba69012ed341cfccb215",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/orders.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "overview",
+      "source": "resources/views/profiles/regie/overview.blade.php",
+      "route": "workspace.regie.overview",
+      "original": "/profil/regie",
+      "output": "pages/regie/overview.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "556024d1c61e6b8c38251c2318b0bcc0c3a3221c60c8dcbe2a805acce0bdf76a",
+      "header_sha256": "cb87581918c2c2ff2c00b83e94affe9e4e35ac27c1f9950f829916507526572b",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/overview.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "profile",
+      "source": "resources/views/profiles/regie/profile.blade.php",
+      "route": "workspace.regie.profile",
+      "original": "/profil/regie/profile",
+      "output": "pages/regie/profile.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "cb82d0deec7e9117b5b693d52d1ea04f35602c4742022ad657129a82fc99074b",
+      "header_sha256": "d42119655ef4f583a83de3434396449fd77254ee9088542d652cb8d4ae75ade1",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "remises",
+      "source": "resources/views/profiles/regie/remises.blade.php",
+      "route": "workspace.regie.remises",
+      "original": "/profil/regie/remises",
+      "output": "pages/regie/remises.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "5daad8fdc271ea0c72c23ecd5ef1ea69253aa4b095a02327e9e3853bcf194f80",
+      "header_sha256": "64893900c2fa8fb85b84ca3f4915f56d65cd9674e3b00cc373345ff407e96208",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/remises.html",
+        "drawers": 2,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "retraits",
+      "source": "resources/views/profiles/regie/retraits.blade.php",
+      "route": "workspace.regie.retraits",
+      "original": "/profil/regie/retraits",
+      "output": "pages/regie/retraits.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "bc9056e95cdcef2f241043728d834bfef30970b1d4e19848123ff7ab5276bb03",
+      "header_sha256": "b0a88f63854ed0ffd60b3539142902a1fb82740f8eda155c01ce5c2665bd1872",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/retraits.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "regie",
+      "page": "stock",
+      "source": "resources/views/profiles/regie/stock.blade.php",
+      "route": "workspace.regie.stock",
+      "original": "/profil/regie/stock",
+      "output": "pages/regie/stock.html",
+      "profile": "regisseur",
+      "status": "À VÉRIFIER",
+      "sha256": "01395fee311969b0138f636d3fa4d29a0b632648c84c3e46d7c0c6576fa27e01",
+      "header_sha256": "a5acdfc253b50ac0256c01677448770cd28b72caa8b6bb38f1db47cc01b5ae4d",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/regie/stock.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "ceremonies",
+      "source": "resources/views/profiles/secretariat/ceremonies.blade.php",
+      "route": "workspace.secretariat.ceremonies",
+      "original": "/profil/secretariat/ceremonies",
+      "output": "pages/secretariat/ceremonies.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "02c7c2b6038220d813e32c91764ed9b212989d9bab536f423df3e65306782bcd",
+      "header_sha256": "90c8dafeef5b61ab3a52f466b03277a9adb262f0e13b0be4504a8d831e7199aa",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/ceremonies.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "documents",
+      "source": "resources/views/profiles/secretariat/documents.blade.php",
+      "route": "workspace.secretariat.documents",
+      "original": "/profil/secretariat/documents",
+      "output": "pages/secretariat/documents.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "da0acb1b83b625948c1a4a513dbc625b63e9d750cc0bd720c4e8bfb27251ad3f",
+      "header_sha256": "071557bb05351f9727b3938f53fde2bb8f1030b412df1c8281fc32b4d48f2fd8",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/documents.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "dossiers",
+      "source": "resources/views/profiles/secretariat/dossiers.blade.php",
+      "route": "workspace.secretariat.dossiers",
+      "original": "/profil/secretariat/dossiers",
+      "output": "pages/secretariat/dossiers.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "1b463526080822d0a0de1f96cbfc9f2849ad3f394ad4dcfafc567be8d1152dde",
+      "header_sha256": "8aa05409b52ca118f3e76237c30667c60c0424221f8564be27a17cfbcd512f40",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/dossiers.html",
+        "drawers": 3,
+        "newView": true
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "inbox",
+      "source": "resources/views/profiles/secretariat/inbox.blade.php",
+      "route": "workspace.secretariat.inbox",
+      "original": "/profil/secretariat/inbox",
+      "output": "pages/secretariat/inbox.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "544d1017c95470bbb4527b60b022e4c2be4ebe1878d7c948d4a76ac7e8358523",
+      "header_sha256": "f78af24489af6141345bb5f3c53e0c0974bc1f1cf05603e7569d899455e5de96",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/inbox.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "journal",
+      "source": "resources/views/profiles/secretariat/journal.blade.php",
+      "route": "workspace.secretariat.journal",
+      "original": "/profil/secretariat/journal",
+      "output": "pages/secretariat/journal.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "864dacef8dc12fe73843a6f36535c136af276953afd0eee34e24f52053af663c",
+      "header_sha256": "cb08ed02ba15b3290b34a06e6228720b358461d458c846330af19e6bfa85c628",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/journal.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "new-dossier",
+      "source": "resources/views/profiles/secretariat/new-dossier.blade.php",
+      "route": "workspace.secretariat.new-dossier",
+      "original": "/profil/secretariat/new-dossier",
+      "output": "pages/secretariat/new-dossier.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "e28f251c3d37d0e2ae4d65e74a25ec0cc76220cf15e6a2780c3c41481436c39a",
+      "header_sha256": "1c909368caa74791250acc668586b75a675066f283f9b164188601067e4e21d3",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/new-dossier.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "notifications",
+      "source": "resources/views/profiles/secretariat/notifications.blade.php",
+      "route": "workspace.secretariat.notifications",
+      "original": "/profil/secretariat/notifications",
+      "output": "pages/secretariat/notifications.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "9cc958f8275ec3876aecb36d5e27d191c9db7b33e5d6ce9984c62334b172468c",
+      "header_sha256": "8a04a688cbae7d323dc14ac340ce99b51c68e4f351ff139fa371fa66ecd07ee9",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/notifications.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "overview",
+      "source": "resources/views/profiles/secretariat/overview.blade.php",
+      "route": "workspace.secretariat.overview",
+      "original": "/profil/secretariat",
+      "output": "pages/secretariat/overview.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "eb3d0b066d27800bf012f05e96ee6c418ce1ce602470b6d6105fbc4d82c00073",
+      "header_sha256": "507ce0a59ed98a80667408e9c2a217730b897bfd3431fb7161cb95229f0aae18",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/overview.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "secretariat",
+      "page": "profile",
+      "source": "resources/views/profiles/secretariat/profile.blade.php",
+      "route": "workspace.secretariat.profile",
+      "original": "/profil/secretariat/profile",
+      "output": "pages/secretariat/profile.html",
+      "profile": "secretariat_dr",
+      "status": "À VÉRIFIER",
+      "sha256": "df6138205af9cb9a9c0bca3d789b16155f2026c291c2dc1fb6ed3df9dda73e69",
+      "header_sha256": "44e681f369c0299795ca4b345350ff1372acdef2e12b22f7c8683ab61aea1446",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/secretariat/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "ceremonies",
+      "source": "resources/views/profiles/service/ceremonies.blade.php",
+      "route": "workspace.service.ceremonies",
+      "original": "/profil/service/ceremonies",
+      "output": "pages/service/ceremonies.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "b12c0c845408eea68c56c61e2e1583396f5dc1a4fb160a18f571c6f6a962d999",
+      "header_sha256": "618f67aff8b2ba67de711f5b82fcb7d038eb1697144951a8ed5536888dccdbaf",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/ceremonies.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "complements",
+      "source": "resources/views/profiles/service/complements.blade.php",
+      "route": "workspace.service.complements",
+      "original": "/profil/service/complements",
+      "output": "pages/service/complements.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "921c343246aea5f050f471af228fbc7254b61313a94c5f582a8aecb2be37cf6c",
+      "header_sha256": "cac43d70fae71ec77b573b38637c1e790d752ace49d9260840db4c41aa33dbd0",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/complements.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "controle",
+      "source": "resources/views/profiles/service/controle.blade.php",
+      "route": "workspace.service.controle",
+      "original": "/profil/service/controle",
+      "output": "pages/service/controle.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "2885ab7556eff128974127c65d08f051a7da60c736d15583f26f51b7c7381e7f",
+      "header_sha256": "ae4ed490413138e3b2fc5f62a5ebb4a32b6eac11d1fcd2fd1dcef3658335e12d",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/controle.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "documents",
+      "source": "resources/views/profiles/service/documents.blade.php",
+      "route": "workspace.service.documents",
+      "original": "/profil/service/documents",
+      "output": "pages/service/documents.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "a7b13dae9cbe5127493934f047f0d9ef588371fa787d28dccf0dbde9f8bfcb37",
+      "header_sha256": "c14c24af081f7bbb5d49af1bedc8578e3a0a7a131f614b44b4da1a0e4c2694ef",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/documents.html",
+        "drawers": 1,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "dossiers",
+      "source": "resources/views/profiles/service/dossiers.blade.php",
+      "route": "workspace.service.dossiers",
+      "original": "/profil/service/dossiers",
+      "output": "pages/service/dossiers.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "04916df99b17c0dbfa094a0c14cd849083fa6d06556ae30dc7563a36ab9c251e",
+      "header_sha256": "cc0850cd0fe99026095e4abe34eeeae61f74fac592166a268bc3366036b32c5e",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/dossiers.html",
+        "drawers": 11,
+        "newView": true
+      }
+    },
+    {
+      "family": "service",
+      "page": "instruction",
+      "source": "resources/views/profiles/service/instruction.blade.php",
+      "route": "workspace.service.instruction",
+      "original": "/profil/service/instruction",
+      "output": "pages/service/instruction.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "87ff1ea7f3c6c803bac687519a5c2428be2df7ac1a103ec2b508c1fe118cda73",
+      "header_sha256": "51ac5211d1f2f0f093af0feb57e863494116b3c5767da42fcc5f916478db3178",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/instruction.html",
+        "drawers": 7,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "journal",
+      "source": "resources/views/profiles/service/journal.blade.php",
+      "route": "workspace.service.journal",
+      "original": "/profil/service/journal",
+      "output": "pages/service/journal.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "07c3d9108c3f62b808883550e869972b6fa440d446ec66dddacb95db65af21e1",
+      "header_sha256": "9d24512b82330314b399eef1f20e45ba85ac1c715626033ca1fab0f3555b69dc",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/journal.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "new-dossier",
+      "source": "resources/views/profiles/demandeur/new-dossier.blade.php",
+      "route": "workspace.service.new-dossier",
+      "original": "/profil/service/new-dossier",
+      "output": "pages/service/new-dossier.html",
+      "profile": "service_agent",
+      "status": "À VÉRIFIER",
+      "sha256": "b9be15b7bbab5119b9c1af99f94c65191eb11e36ecdeed5c0d85f3845cec5ffc",
+      "header_sha256": "787efeda684bfa3a7d94a5106ced8a600176677a13205f6424344bd8db5ba652",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/new-dossier.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "notifications",
+      "source": "resources/views/profiles/service/notifications.blade.php",
+      "route": "workspace.service.notifications",
+      "original": "/profil/service/notifications",
+      "output": "pages/service/notifications.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "b16b3cd3cd236673102312536c3736c1eaff8d9a7b654f5a97ded1c9f08fc4c3",
+      "header_sha256": "ee8b54efad73215ff5a52506690c29cfab48dc4fe9f62d0525c61db62b364405",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/notifications.html",
+        "drawers": 2,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "orders",
+      "source": "resources/views/profiles/service/orders.blade.php",
+      "route": "workspace.service.orders",
+      "original": "/profil/service/orders",
+      "output": "pages/service/orders.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "db2f726e4a1ef5665ee4595857e8fba7cfb6b2eeb24c02ceb7ababc90f7cf366",
+      "header_sha256": "c56d350ee8b7bab2d635f6b696986303bb207cf3db886b35eb66e7c6d35dc4fd",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/orders.html",
+        "drawers": 5,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "overview",
+      "source": "resources/views/profiles/service/overview.blade.php",
+      "route": "workspace.service.overview",
+      "original": "/profil/service",
+      "output": "pages/service/overview.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "f6fdd0b70d6e7c894dcf3d9fb7455c2459a9c5438496c05963cc9eb60004a941",
+      "header_sha256": "5f286a5a63e57497c77117e180f6337a5f1ddde9677da8dcfc0381e8d76f9c44",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/overview.html",
+        "drawers": 5,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "profile",
+      "source": "resources/views/profiles/service/profile.blade.php",
+      "route": "workspace.service.profile",
+      "original": "/profil/service/profile",
+      "output": "pages/service/profile.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "bfdeef207ebb731c4a9936de4ba0f2d1384c7816bfba41853c843ba9eab36713",
+      "header_sha256": "787efeda684bfa3a7d94a5106ced8a600176677a13205f6424344bd8db5ba652",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/profile.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "recipients",
+      "source": "resources/views/profiles/service/recipients.blade.php",
+      "route": "workspace.service.recipients",
+      "original": "/profil/service/recipients",
+      "output": "pages/service/recipients.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "bf0aa402e1e97f438f2ae96fba2e54c7ff93f0e33b5cc2b3174261588efe2b8e",
+      "header_sha256": "c6d754fd3a14a51dd809afeaa6b89c827d0668c591f89fb7c091ebd2d4e7a2c4",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/recipients.html",
+        "drawers": 6,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "recours",
+      "source": "resources/views/profiles/service/recours.blade.php",
+      "route": "workspace.service.recours",
+      "original": "/profil/service/recours",
+      "output": "pages/service/recours.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "8bb2af443bdc34a6614a965d098ade8c0b0221f7e22b6ffa534580cc1cde889a",
+      "header_sha256": "39d4951004574f10c471c5ab0d64338cb7611c87bdd4573a899fe5a646060e62",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/recours.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "remises",
+      "source": "resources/views/profiles/service/remises.blade.php",
+      "route": "workspace.service.remises",
+      "original": "/profil/service/remises",
+      "output": "pages/service/remises.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "9ac86e79d51470155636b44051a9bd10226da744f66400fd2238d742b0a0c704",
+      "header_sha256": "8e8211bc51c82e462b81906d1b625634c7632811e9ad3d5b786682242d61a87d",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/remises.html",
+        "drawers": 2,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "stats",
+      "source": "resources/views/profiles/service/stats.blade.php",
+      "route": "workspace.service.stats",
+      "original": "/profil/service/stats",
+      "output": "pages/service/stats.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "5f776739c638809b04a3640fcf40745f6f426c54ac2e3924641f882b2d7b8592",
+      "header_sha256": "93dc09fdc412ee7664a10a1da69dc8127686ecff580242353407b782346d5be5",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/stats.html",
+        "drawers": 0,
+        "newView": false
+      }
+    },
+    {
+      "family": "service",
+      "page": "supervision",
+      "source": "resources/views/profiles/service/supervision.blade.php",
+      "route": "workspace.service.supervision",
+      "original": "/profil/service/supervision",
+      "output": "pages/service/supervision.html",
+      "profile": "service_chef",
+      "status": "À VÉRIFIER",
+      "sha256": "c11d366f553245ef45eacb6fb841a29d79782b6910360b1a7f688987965ab543",
+      "header_sha256": "647c745dfb7a82602c5d0fac4f4dbfd83c752c4e6074d9154ccdafa94512ed2b",
+      "notes": [
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 18,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "@json remplacé par contexte JS de démonstration embarqué."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 21,
+          "detail": "Injection serveur remplacée explicitement par le contexte de démonstration externe."
+        },
+        {
+          "file": "resources/views/layouts/base.blade.php",
+          "line": 28,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        },
+        {
+          "file": "resources/views/components/navigation.blade.php",
+          "line": 11,
+          "detail": "Bloc @php non exécuté (projection statique explicitée ; validation PHP à faire)."
+        }
+      ],
+      "maquette": {
+        "output": "pages/service/supervision.html",
+        "drawers": 5,
+        "newView": false
+      }
+    }
+  ],
+  "missing": [],
+  "mode": "maquette-sans-logique-metier"
+}
